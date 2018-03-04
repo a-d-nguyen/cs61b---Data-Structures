@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="javalib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/proj1b/javalib/stdlib-package.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/proj1b/javalib/stdlib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/proj1b/javalib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/proj1b/javalib/jh61b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/proj1b/javalib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/proj1b/javalib/algs4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

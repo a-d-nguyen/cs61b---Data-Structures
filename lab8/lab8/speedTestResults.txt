@@ -1,0 +1,28 @@
+This program inserts lexicographically increasing Stringsinto Maps as <String, Integer> pairs.
+
+Enter # strings to insert into ULLMap: 150
+class lab8.ULLMap: 0.02 sec
+
+Enter # strings to insert into BSTMap: 5000
+class lab8.BSTMap: 0.96 sec
+
+Enter # strings to insert into Java's TreeMap: 50
+Java's Built-in TreeMap: 0.00 sec
+
+Would you like to try more timed-tests? (y/n): n
+
+This program inserts random Strings of length L
+ Into different types of maps as <String, Integer> pairs.
+
+What would you like L to be?: 100
+
+Enter # strings to insert into ULLMap: 500
+class lab8.ULLMap: 0.02 sec
+
+Enter # strings to insert into your BSTMap: 1000
+class lab8.BSTMap: 0.02 sec
+
+Enter # strings to insert into Java's TreeMap: 50000
+Java's Built-in TreeMap: 0.42 sec
+
+Would you like to try more timed-tests? (y/n)n

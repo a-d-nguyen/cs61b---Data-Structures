@@ -1,0 +1,37 @@
+ This program inserts lexicographically increasing Stringsinto Maps as <String, Integer> pairs.
+
+Enter # strings to insert into ULLMap: 50
+class lab9.ULLMap: 0.00 sec
+
+Enter # strings to insert into MyHashMap: 1000
+class lab9.MyHashMap: 0.01 sec
+
+Enter # strings to insert into Java's HashMap: 1000000
+Java's Built-in HashMap: 0.45 sec
+
+Would you like to try more timed-tests? (y/n): n
+
+ This program inserts random Strings of length L
+ Into different types of maps as <String, Integer> pairs.
+
+What would you like L to be?: 100
+
+Enter # strings to insert into ULLMap: 10000
+class lab9.ULLMap: 0.60 sec
+
+Enter # strings to insert into your MyHashMap: 1000
+
+java.lang.ArrayIndexOutOfBoundsException: -2
+Enter # strings to insert into Java's HashMap: 	at lab9.MyHashMap.put(MyHashMap.java:91)
+	at lab9.InsertRandomSpeedTest.insertRandom(InsertRandomSpeedTest.java:54)
+	at lab9.InsertRandomSpeedTest.timeRandomMap61B(InsertRandomSpeedTest.java:78)
+	at lab9.InsertRandomSpeedTest.main(InsertRandomSpeedTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+100000
+Java's Built-in HashMap: 0.17 sec
+
+Would you like to try more timed-tests? (y/n)n
